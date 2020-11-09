@@ -1,3 +1,13 @@
+## What is this?
+
+This is a boring simple library for lazily initializing things based on other lazy initialized things.
+
+This way things are only initialized when needed, and you can replace anything in the dependencies chain with something else, which is useful for testing.
+
+It's called Injector because it is inspired by some dependency injection libraries.
+
+Related: https://en.wikipedia.org/wiki/Dependency_injection#Dependency_Injection_Pattern
+
 ## Installing
 
     npm i tobyhinloopen/injector
