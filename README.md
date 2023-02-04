@@ -10,7 +10,7 @@ Related: https://en.wikipedia.org/wiki/Dependency_injection#Dependency_Injection
 
 ## Installing
 
-    npm i tobyhinloopen/injector
+    npm i bonaroo-injector
 
 ## Example usage (Node / plain JS)
 
@@ -23,7 +23,7 @@ Related: https://en.wikipedia.org/wiki/Dependency_injection#Dependency_Injection
 
 ## Relevant source
 
-See src/core/Injector.ts
+See src/index.ts
 
 ## Exports
 
