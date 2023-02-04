@@ -1089,6 +1089,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bonaroo-injector@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "bonaroo-injector@workspace:."
+  dependencies:
+    "@types/jest": ^29.4.0
+    "@types/node": ^18.11.18
+    jest: ^29.4.1
+    ts-jest: ^29.0.5
+    typescript: ^4.9.5
+  languageName: unknown
+  linkType: soft
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -1847,18 +1859,6 @@ __metadata:
   checksum: 4a48a733847879d6cf6691860a6b1e3f0f4754176e4d71494c41f3475553768b10f84b5ce1d40fbd0e34e6bfbb864ee35858ad4dd2cf31e02fc4a154b724d7f1
   languageName: node
   linkType: hard
-
-"injector@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "injector@workspace:."
-  dependencies:
-    "@types/jest": ^29.4.0
-    "@types/node": ^18.11.18
-    jest: ^29.4.1
-    ts-jest: ^29.0.5
-    typescript: ^4.9.5
-  languageName: unknown
-  linkType: soft
 
 "ip@npm:^2.0.0":
   version: 2.0.0
