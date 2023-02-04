@@ -5,6 +5,7 @@
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",
+    "declaration": true,
     "lib": [
       "es2022"
     ],
@@ -15,8 +16,6 @@
     "strictBindCallApply": true,
     "sourceMap": true,
     "skipLibCheck": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "inlineSources": true,
     "noUnusedLocals": true
   }
