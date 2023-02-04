@@ -1,8 +1,3 @@
 {
-  "extends": "tslint:recommended",
-  "rules": {
-    "no-namespace": false,
-    "object-literal-sort-keys": false,
-    "max-classes-per-file": false
-  }
+  "extends": "tslint:recommended"
 }
