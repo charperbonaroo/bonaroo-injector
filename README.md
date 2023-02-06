@@ -12,7 +12,7 @@ Related: https://en.wikipedia.org/wiki/Dependency_injection#Dependency_Injection
 
     npm i bonaroo-injector
 
-## Example usage (Node / plain JS)
+## Example usage
 
 ```ts
 import {Injector} from "bonaroo-injector";
