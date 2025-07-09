@@ -8,6 +8,12 @@ It's called Injector because it is inspired by some dependency injection librari
 
 Related: https://en.wikipedia.org/wiki/Dependency_injection#Dependency_Injection_Pattern
 
+This library is compatible with Typescript & plain Javascript, but it has no strong typing for Typescript. Values returned will be of type `unknown`, but you can obviously cast them using `as MyThing`.
+
+## Github
+
+https://github.com/charperbonaroo/bonaroo-injector
+
 ## Installing
 
     npm i bonaroo-injector
@@ -15,7 +21,7 @@ Related: https://en.wikipedia.org/wiki/Dependency_injection#Dependency_Injection
 ## Example usage
 
 ```ts
-import {Injector} from "bonaroo-injector";
+import { Injector } from "bonaroo-injector";
 const injector = Injector.instance;
 injector.constant("port", 4000);
 injector.factory("server", (port, date) => `Server :${port} at ${date}`, ["port", "now"])
@@ -45,7 +51,7 @@ testInjector.get(MyServer) // ServerMock-instance
 
 ## Relevant source
 
-See src/index.ts
+See `src/index.ts`
 
 ## Exports
 
